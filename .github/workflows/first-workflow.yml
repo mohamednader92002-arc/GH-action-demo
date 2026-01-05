@@ -18,11 +18,23 @@ jobs:
 
     steps:
 
-      - name: run bash command
+      - name: before checkout
 
-        run: echo "first workflow"
+        run: ls
 
         shell: bash
+
+
+      - name: uses checkout
+        uses: actions/checkout@v6
+
+      - name: after checkout
+
+        run: ls
+
+        shell: bash     
+
+        
 
 
 
