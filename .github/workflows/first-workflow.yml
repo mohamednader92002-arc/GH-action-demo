@@ -1,12 +1,27 @@
 name: first workflow
 
 on:
+  workflow-dispatch:
+     inputs:
+      versionName:
+        required: true
+        description: "this is version Name"
 
-  push:
 
-    branches:
 
-      - "main"
+
+
+
+
+
+
+
+
+#  push:
+
+#    branches:
+
+#      - "main"
 
 jobs:
 
