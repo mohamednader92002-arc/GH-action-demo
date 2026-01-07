@@ -1,12 +1,11 @@
 name: first workflow
 
 on:
-  workflow-dispatch:
-     inputs:
+  workflow_dispatch:
+    inputs:
       versionName:
+        description: "this is version name"
         required: true
-        description: "this is version Name"
-
 
 
 
