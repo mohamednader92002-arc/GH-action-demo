@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       versionName:
-        description: "this is version name"
+        description: "this is version name workflow_dispatch"
         required: true
 
 
@@ -16,11 +16,7 @@ on:
 
 
 
-#  push:
 
-#    branches:
-
-#      - "main"
 
 jobs:
 
